@@ -1,0 +1,232 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-ene-2016, 15:44:25
+    Author     : Facu
+*/
+
+.titulo {
+    color: white;
+    font-size: 400%;
+    font-family: sans-serif;
+    
+}
+
+.fondo {
+    background-color: #EFF8FB;
+}
+
+.baner {
+    /*forma*/
+    background: #1638A9;
+    width: 100%;
+    height: 92px;
+    /*borde redondeado*/
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 2px solid #000000;
+    /*posicion*/
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.nombre {
+    position: absolute;
+    top: 30px;
+    left: 65.5%;
+    font-family: sans-serif;
+    color: white
+}
+
+.lkModificar {
+    position: absolute;
+    top: 30px;
+    left: 81.5%;
+    font-family: sans-serif;
+    border: 2px solid #000000;
+}
+
+.lkSalir {
+    position: absolute;
+    top: 30px;
+    left: 93%;
+    font-family: sans-serif;
+    border: 2px solid #000000;
+}
+
+.infomenu{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    font-family: sans-serif;
+    color: #1638A9;
+    font-size: 150%;
+}
+
+.menus {
+    /*forma*/
+    background: white;
+    width: 800px;
+    height: 140px;
+    /*borde redondeado*/
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 2px solid #000000;
+    /*posicion*/
+    position: absolute;
+    top: 135px;
+    left: 11px;
+}
+
+.menudescripcion{
+    position: absolute;
+    top: 300px;
+    left: 11px;
+    width: 600px;
+    height: 100px;
+}
+
+.foto{
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000000;
+}
+
+.precio{
+    position: absolute;
+    top: 500px;
+    left: 11px;
+}
+
+.estadohab{
+    position: absolute;
+    top: 520px;
+    left: 11px;
+    color: green;
+}
+
+.estadodes{
+    position: absolute;
+    top: 520px;
+    left: 11px;
+    color: red;
+}
+
+.btnCrear {
+    position: absolute;
+    top: 150px;
+    left: 850px;
+    font-family: sans-serif;
+    border: 2px solid #000000;
+}
+
+.btnEditar {
+    position: absolute;
+    top: 200px;
+    left: 850px;
+    font-family: sans-serif;
+    border: 2px solid #000000;
+}
+
+.btnHD {
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    font-family: sans-serif;
+    border: 2px solid #000000;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.editarmenus{
+    position: absolute;
+    top: 145px;
+    left: 25px;
+    font-size: 110%;
+}
+
+.subeditarmenus{
+    position: relative;
+    left: 297px;
+}
+
+.btnReportes{
+    position: absolute;
+    top: 530px;
+    left: 720px;
+    font-family: sans-serif;
+    border: 2px solid #000000;
+}
+
+/* Clases para la pagina de usuarios */
+
+.subtitulo{
+    position: absolute;
+    top: 145px;
+    left: 38%;
+    font-size: 180%;
+    color: #1638A9;
+    font-family: sans-serif;
+}
+
+.infosubtitulo{
+    position: absolute;
+    top: 180px;
+    left: 43%;
+    font-size: 130%;
+    color: #1638A9;
+    font-family: sans-serif;
+}
+
+.formulario{
+    position: absolute;
+    top: 200px;
+    left: 41%;
+}
+
+.compra{
+    position: absolute;
+    top: 540px;
+    left: 11px;
+}
+
+.carrito{
+    position: absolute;
+    top: 50px;
+    left: 65.5%;
+    color: aqua;
+    text-decoration: underline;
+}
+
+.imgcarrito{
+    width: 30px;
+    height: 30px;
+}
+
+.detalles{
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-family: sans-serif;
+    color: #1638A9;
+    font-size: 100%;
+}
+
+.infotag{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    z-index: 2;
+}
